@@ -1,0 +1,1138 @@
+<Sizing9500>
+<Models>
+	<Model id="1"  order="1" name="9407, 9409" imagefile="http://www.redwhitevalvecorp.com/android/images/static/9400_0-LAN.jpg"  valve="FM" active="true"/>
+	<Model id="2"  order="2" name="9450A" imagefile="http://www.redwhitevalvecorp.com/android/images/static/9450_0-LAN.jpg"  valve="FM" active="true"/>
+	<Model id="4"  order="3" name="9517, 9519, 9517AB, 9519AB" imagefile="http://www.redwhitevalvecorp.com/android/images/static/9510RWV_0-LAN.jpg"  valve="FO" active="true"/>
+	<Model id="6"  order="4" name="9527AB, 9529AB" imagefile="http://www.redwhitevalvecorp.com/android/images/static/9520RWV_0-LAN.jpg"  valve="VO" active="true"/>
+	<Model id="8"  order="5" name="9574P" imagefile="http://www.redwhitevalvecorp.com/android/images/static/9555P_0-LAN.jpg" valve="VO" active="true"/>	
+</Models>
+<DNs>
+	<DN id="0" >3/8''</DN>
+	<DN id="1" >-X 1/2''</DN>
+	<DN id="2" >-U 1/2''</DN>
+	<DN id="3" >-L 1/2''</DN>
+	<DN id="4" >1/2''</DN>
+	<DN id="5" >3/4''</DN>
+	<DN id="6" >1''</DN>
+	<DN id="7" >1-1/4''</DN>
+	<DN id="8" >1-1/2''</DN>
+	<DN id="9" >2''</DN>
+	<DN id="10">2-1/2''</DN>
+	<DN id="11">3''</DN>
+	<DN id="12">4''</DN>
+	<DN id="13">5''</DN>
+	<DN id="14">6''</DN>
+	<DN id="15">8''</DN>
+	<DN id="16">10''</DN>
+	<DN id="17">12''</DN>
+	<DN id="18">14''</DN>
+	<DN id="19">16''</DN>
+	<DN id="20">18''</DN>
+	<DN id="21">20''</DN>
+	<DN id="22">24''</DN>
+</DNs>
+<PressureMeasures>
+	<Measure name="psi" factor="6.894757" round="2"/>
+	<Measure name="ftH2O" factor="2.986" round="1"/>
+	<Measure name="kPa" factor="1" round="1"/>
+	<Measure name="Bar" factor="100" round="3"/>
+</PressureMeasures>
+<FlowMeasures>
+	<Measure name="GPM" factor="0.0630902" round="2"/>
+	<Measure name="l/s" factor="1" round="3"/>
+	<Measure name="l/h" factor="0.000277778" round="0"/>
+	<Measure name="m3/h" factor="0.277777778" round="2"/>
+</FlowMeasures>
+<Sizings>
+
+	<Sizing modelid="1"  dnid="1"  suggestedflowrangemin="0.0075" suggestedflowrangemax="0.023">
+		<KV>
+		    <Setting handpos="0" kv="0.25"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0" kvs="0.263"/>
+		</KVS>
+	</Sizing>	
+	<Sizing modelid="1"  dnid="2"  suggestedflowrangemin="0.017"  suggestedflowrangemax="0.045">
+		<KV>
+			<Setting handpos="0" kv="0.61"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0" kvs="0.55"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="1"  dnid="3"  suggestedflowrangemin="0.031"  suggestedflowrangemax="0.074">
+		<KV>
+			<Setting handpos="0" kv="1.227"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0" kvs="1.15"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="1"  dnid="4"  suggestedflowrangemin="0.062"  suggestedflowrangemax="0.148">
+		<KV>
+			<Setting handpos="0" kv="3.63"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0" kvs="2.80"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="1"  dnid="5"  suggestedflowrangemin="0.138"  suggestedflowrangemax="0.325">
+		<KV>
+			<Setting handpos="0" kv="7.56"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0" kvs="5.33"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="1"  dnid="6"  suggestedflowrangemin="0.258"  suggestedflowrangemax="0.603">
+		<KV>
+			<Setting handpos="0" kv="13.61"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0" kvs="9.72"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="1"  dnid="7"  suggestedflowrangemin="0.54"   suggestedflowrangemax="1.25">
+		<KV>
+			<Setting handpos="0" kv="30.78"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0" kvs="20.25"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="1"  dnid="8"  suggestedflowrangemin="0.81"   suggestedflowrangemax="1.88">
+		<KV>
+			<Setting handpos="0" kv="48.1"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0" kvs="30.23"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="1"  dnid="9"  suggestedflowrangemin="1.52"   suggestedflowrangemax="3.51">
+		<KV>
+			<Setting handpos="0" kv="85.51"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0" kvs="55.07"/>
+		</KVS>
+	</Sizing>
+	
+	<Sizing modelid="2"  dnid="5"  suggestedflowrangemin="0.138"  suggestedflowrangemax="0.325">
+		<KV>
+			<Setting handpos="0" kv="6.2"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0" kvs="4.8"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="2"  dnid="6"  suggestedflowrangemin="0.258"  suggestedflowrangemax="0.603">
+		<KV>
+			<Setting handpos="0" kv="11.5"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0" kvs="8.4"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="2"  dnid="7"  suggestedflowrangemin="0.54"   suggestedflowrangemax="1.25">
+		<KV>
+			<Setting handpos="0" kv="23.6"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0" kvs="16.8"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="2"  dnid="8"  suggestedflowrangemin="0.81"   suggestedflowrangemax="1.88">
+		<KV>
+			<Setting handpos="0" kv="36.0"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0" kvs="25.0"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="2"  dnid="9"  suggestedflowrangemin="1.52"   suggestedflowrangemax="3.51">
+		<KV>
+			<Setting handpos="0" kv="71.3"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0" kvs="45.4"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="2"  dnid="10" suggestedflowrangemin="3.02"   suggestedflowrangemax="6.95">
+		<KV>
+			<Setting handpos="0" kv="151.7"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0" kvs="88.2"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="2"  dnid="11" suggestedflowrangemin="6.40"   suggestedflowrangemax="15.36">
+		<KV>
+			<Setting handpos="0" kv="226.3"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0" kvs="123.0"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="2"  dnid="12" suggestedflowrangemin="10.85"  suggestedflowrangemax="26.04">
+		<KV>
+			<Setting handpos="0" kv="368.7"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0" kvs="215.6"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="2"  dnid="13" suggestedflowrangemin="16.85"  suggestedflowrangemax="39.75">
+		<KV>
+			<Setting handpos="0" kv="565.9"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0" kvs="336.9"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="2"  dnid="14" suggestedflowrangemin="23.71"  suggestedflowrangemax="56.91">
+		<KV>
+			<Setting handpos="0" kv="779.7"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0" kvs="458.6"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="2"  dnid="15" suggestedflowrangemin="41.86"  suggestedflowrangemax="100.47">
+		<KV>
+			<Setting handpos="0" kv="1415"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0" kvs="803.9"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="2"  dnid="16" suggestedflowrangemin="66.58"  suggestedflowrangemax="156.78">
+		<KV>
+			<Setting handpos="0" kv="2160"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0" kvs="1249"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="2"  dnid="17" suggestedflowrangemin="94.16"  suggestedflowrangemax="255.99">
+		<KV>
+			<Setting handpos="0" kv="3195"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0" kvs="1836"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="2"  dnid="18" suggestedflowrangemin="96"     suggestedflowrangemax="261">
+		<KV>
+			<Setting handpos="0" kv="3217"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0" kvs="1849"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="2"  dnid="19" suggestedflowrangemin="117"    suggestedflowrangemax="320">
+		<KV>
+			<Setting handpos="0" kv="3941"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0" kvs="2264"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="2"  dnid="20" suggestedflowrangemin="150"    suggestedflowrangemax="408">
+		<KV>
+			<Setting handpos="0" kv="5025"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0" kvs="2886"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="2"  dnid="21" suggestedflowrangemin="186"    suggestedflowrangemax="506">
+		<KV>
+			<Setting handpos="0" kv="6235"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0" kvs="3582"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="2"  dnid="22" suggestedflowrangemin="245"    suggestedflowrangemax="667">
+		<KV>
+			<Setting handpos="0" kv="8212"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0" kvs="4716"/>
+		</KVS>
+	</Sizing>
+
+	<Sizing modelid="4"  dnid="1"  suggestedflowrangemin="0.0075" suggestedflowrangemax="0.023">
+		<KV>
+		    <Setting handpos="0.5" kv="0.053"/>
+			<Setting handpos="0.7" kv="0.062"/>
+			<Setting handpos="1.0" kv="0.108"/>
+			<Setting handpos="1.3" kv="0.146"/>
+			<Setting handpos="1.5" kv="0.167"/>
+			<Setting handpos="1.7" kv="0.188"/>
+			<Setting handpos="2.0" kv="0.216"/>
+			<Setting handpos="2.3" kv="0.231"/>
+			<Setting handpos="2.5" kv="0.237"/>
+			<Setting handpos="2.7" kv="0.242"/>
+			<Setting handpos="3.0" kv="0.251"/>
+			<Setting handpos="3.3" kv="0.255"/>
+			<Setting handpos="3.5" kv="0.258"/>
+			<Setting handpos="3.7" kv="0.261"/>
+			<Setting handpos="4.0" kv="0.262"/>
+			<Setting handpos="4.4" kv="0.264"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0" kvs="0.263"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="4"  dnid="2"  suggestedflowrangemin="0.017"  suggestedflowrangemax="0.045">
+		<KV>
+		    <Setting handpos="0.5" kv="0.153"/>
+			<Setting handpos="0.7" kv="0.178"/>
+			<Setting handpos="1.0" kv="0.245"/>
+			<Setting handpos="1.3" kv="0.286"/>
+			<Setting handpos="1.5" kv="0.307"/>
+			<Setting handpos="1.7" kv="0.335"/>
+			<Setting handpos="2.0" kv="0.385"/>
+			<Setting handpos="2.3" kv="0.442"/>
+			<Setting handpos="2.5" kv="0.447"/>
+			<Setting handpos="2.7" kv="0.456"/>
+			<Setting handpos="3.0" kv="0.487"/>
+			<Setting handpos="3.3" kv="0.500"/>
+			<Setting handpos="3.5" kv="0.514"/>
+			<Setting handpos="3.7" kv="0.515"/>
+			<Setting handpos="4.0" kv="0.522"/>
+			<Setting handpos="4.4" kv="0.523"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0" kvs="0.55"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="4"  dnid="3"  suggestedflowrangemin="0.031"  suggestedflowrangemax="0.074">
+		<KV>
+			<Setting handpos="0.5" kv="0.138"/>
+			<Setting handpos="0.7" kv="0.161"/>
+			<Setting handpos="1.0" kv="0.248"/>
+			<Setting handpos="1.3" kv="0.341"/>
+			<Setting handpos="1.5" kv="0.381"/>
+			<Setting handpos="1.7" kv="0.433"/>
+			<Setting handpos="2.0" kv="0.507"/>
+			<Setting handpos="2.3" kv="0.579"/>
+			<Setting handpos="2.5" kv="0.602"/>
+			<Setting handpos="2.7" kv="0.643"/>
+			<Setting handpos="3.0" kv="0.716"/>
+			<Setting handpos="3.3" kv="0.747"/>
+			<Setting handpos="3.5" kv="0.771"/>
+			<Setting handpos="3.7" kv="0.800"/>
+			<Setting handpos="4.0" kv="0.824"/>
+			<Setting handpos="4.4" kv="0.852"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0" kvs="1.15"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="4"  dnid="4"  suggestedflowrangemin="0.062"  suggestedflowrangemax="0.148">
+		<KV>
+			<Setting handpos="0.5" kv="0.41"/>
+			<Setting handpos="0.7" kv="0.41"/>
+			<Setting handpos="1.0" kv="0.53"/>
+			<Setting handpos="1.3" kv="0.62"/>
+			<Setting handpos="1.5" kv="0.70"/>
+			<Setting handpos="1.7" kv="0.78"/>
+			<Setting handpos="2.0" kv="0.86"/>
+			<Setting handpos="2.3" kv="0.95"/>
+			<Setting handpos="2.5" kv="1.02"/>
+			<Setting handpos="2.7" kv="1.14"/>
+			<Setting handpos="3.0" kv="1.38"/>
+			<Setting handpos="3.3" kv="1.63"/>
+			<Setting handpos="3.5" kv="1.76"/>
+			<Setting handpos="3.7" kv="1.83"/>
+			<Setting handpos="4.0" kv="1.89"/>
+			<Setting handpos="4.4" kv="1.92"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0" kvs="2.80"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="4"  dnid="5"  suggestedflowrangemin="0.138"  suggestedflowrangemax="0.325">
+		<KV>
+			<Setting handpos="0.5" kv="0.41"/>
+			<Setting handpos="0.7" kv="0.47"/>
+			<Setting handpos="1.0" kv="0.58"/>
+			<Setting handpos="1.3" kv="0.70"/>
+			<Setting handpos="1.5" kv="0.78"/>
+			<Setting handpos="1.7" kv="0.86"/>
+			<Setting handpos="2.0" kv="0.97"/>
+			<Setting handpos="2.3" kv="1.08"/>
+			<Setting handpos="2.5" kv="1.20"/>
+			<Setting handpos="2.7" kv="1.40"/>
+			<Setting handpos="3.0" kv="1.94"/>
+			<Setting handpos="3.3" kv="2.54"/>
+			<Setting handpos="3.5" kv="2.93"/>
+			<Setting handpos="3.7" kv="3.24"/>
+			<Setting handpos="4.0" kv="3.51"/>
+			<Setting handpos="4.4" kv="3.67"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0" kvs="5.33"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="4"  dnid="6"  suggestedflowrangemin="0.258"  suggestedflowrangemax="0.603">
+		<KV>
+			<Setting handpos="0.5" kv="1.47"/>
+			<Setting handpos="0.7" kv="1.73"/>
+			<Setting handpos="1.0" kv="2.09"/>
+			<Setting handpos="1.3" kv="2.44"/>
+			<Setting handpos="1.5" kv="2.70"/>
+			<Setting handpos="1.7" kv="3.01"/>
+			<Setting handpos="2.0" kv="3.57"/>
+			<Setting handpos="2.3" kv="4.18"/>
+			<Setting handpos="2.5" kv="4.57"/>
+			<Setting handpos="2.7" kv="4.87"/>
+			<Setting handpos="3.0" kv="5.27"/>
+			<Setting handpos="3.3" kv="5.61"/>
+			<Setting handpos="3.5" kv="5.74"/>
+			<Setting handpos="3.7" kv="5.88"/>
+			<Setting handpos="4.0" kv="6.14"/>
+			<Setting handpos="4.4" kv="6.24"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0" kvs="9.72"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="4"  dnid="7"  suggestedflowrangemin="0.54"   suggestedflowrangemax="1.25">
+		<KV>
+			<Setting handpos="0.5" kv="2.56"/>
+			<Setting handpos="0.7" kv="2.92"/>
+			<Setting handpos="1.0" kv="3.42"/>
+			<Setting handpos="1.3" kv="3.88"/>
+			<Setting handpos="1.5" kv="4.18"/>
+			<Setting handpos="1.7" kv="4.54"/>
+			<Setting handpos="2.0" kv="5.42"/>
+			<Setting handpos="2.3" kv="6.76"/>
+			<Setting handpos="2.5" kv="7.92"/>
+			<Setting handpos="2.7" kv="9.05"/>
+			<Setting handpos="3.0" kv="10.56"/>
+			<Setting handpos="3.3" kv="11.58"/>
+			<Setting handpos="3.5" kv="12.06"/>
+			<Setting handpos="3.7" kv="12.40"/>
+			<Setting handpos="4.0" kv="12.54"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0" kvs="20.25"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="4"  dnid="8"  suggestedflowrangemin="0.81"   suggestedflowrangemax="1.88">
+		<KV>
+			<Setting handpos="0.5" kv="2.72"/>
+			<Setting handpos="0.7" kv="3.12"/>
+			<Setting handpos="1.0" kv="3.69"/>
+			<Setting handpos="1.3" kv="4.29"/>
+			<Setting handpos="1.5" kv="4.82"/>
+			<Setting handpos="1.7" kv="5.71"/>
+			<Setting handpos="2.0" kv="7.78"/>
+			<Setting handpos="2.3" kv="10.45"/>
+			<Setting handpos="2.5" kv="12.29"/>
+			<Setting handpos="2.7" kv="14.13"/>
+			<Setting handpos="3.0" kv="16.34"/>
+			<Setting handpos="3.3" kv="17.88"/>
+			<Setting handpos="3.5" kv="18.63"/>
+			<Setting handpos="3.7" kv="19.17"/>
+			<Setting handpos="4.0" kv="19.59"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0" kvs="30.23"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="4"  dnid="9"  suggestedflowrangemin="1.52"   suggestedflowrangemax="3.51">
+		<KV>
+			<Setting handpos="0.5" kv="5.36"/>
+			<Setting handpos="0.7" kv="6.54"/>
+			<Setting handpos="1.0" kv="8.35"/>
+			<Setting handpos="1.3" kv="10.54"/>
+			<Setting handpos="1.5" kv="12.37"/>
+			<Setting handpos="1.7" kv="14.39"/>
+			<Setting handpos="2.0" kv="17.45"/>
+			<Setting handpos="2.3" kv="20.20"/>
+			<Setting handpos="2.5" kv="21.73"/>
+			<Setting handpos="2.7" kv="23.06"/>
+			<Setting handpos="3.0" kv="24.84"/>
+			<Setting handpos="3.3" kv="26.44"/>
+			<Setting handpos="3.5" kv="27.44"/>
+			<Setting handpos="3.7" kv="28.42"/>
+			<Setting handpos="4.0" kv="29.72"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0" kvs="55.07"/>
+		</KVS>
+	</Sizing>
+		
+	<Sizing modelid="6"  dnid="3"  suggestedflowrangemin="0.031"  suggestedflowrangemax="0.074">
+		<KV>
+			<Setting handpos="0.5" kv="0.11"/>
+			<Setting handpos="1.0" kv="0.15"/>
+			<Setting handpos="1.5" kv="0.19"/>
+			<Setting handpos="2.0" kv="0.22"/>
+			<Setting handpos="2.5" kv="0.25"/>
+			<Setting handpos="3.0" kv="0.29"/>
+			<Setting handpos="3.5" kv="0.33"/>
+			<Setting handpos="4.0" kv="0.37"/>
+			<Setting handpos="4.5" kv="0.42"/>
+			<Setting handpos="5.0" kv="0.47"/>
+			<Setting handpos="5.5" kv="0.52"/>
+			<Setting handpos="6.0" kv="0.57"/>
+			<Setting handpos="6.5" kv="0.62"/>
+			<Setting handpos="7.0" kv="0.67"/>
+			<Setting handpos="7.5" kv="0.72"/>
+			<Setting handpos="8.0" kv="0.76"/>
+			<Setting handpos="8.5" kv="0.80"/>
+			<Setting handpos="9.0" kv="0.83"/>
+			<Setting handpos="9.5" kv="0.86"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0.5" kvs="0.11"/>
+			<Setting handpos="1.0" kvs="0.15"/>
+			<Setting handpos="1.5" kvs="0.19"/>
+			<Setting handpos="2.0" kvs="0.22"/>
+			<Setting handpos="2.5" kvs="0.25"/>
+			<Setting handpos="3.0" kvs="0.29"/>
+			<Setting handpos="3.5" kvs="0.33"/>
+			<Setting handpos="4.0" kvs="0.37"/>
+			<Setting handpos="4.5" kvs="0.42"/>
+			<Setting handpos="5.0" kvs="0.47"/>
+			<Setting handpos="5.5" kvs="0.52"/>
+			<Setting handpos="6.0" kvs="0.57"/>
+			<Setting handpos="6.5" kvs="0.62"/>
+			<Setting handpos="7.0" kvs="0.67"/>
+			<Setting handpos="7.5" kvs="0.72"/>
+			<Setting handpos="8.0" kvs="0.76"/>
+			<Setting handpos="8.5" kvs="0.80"/>
+			<Setting handpos="9.0" kvs="0.83"/>
+			<Setting handpos="9.5" kvs="0.86"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="6"  dnid="4"  suggestedflowrangemin="0.062"  suggestedflowrangemax="0.148">
+		<KV>
+			<Setting handpos="0.5" kv="0.50"/>
+			<Setting handpos="1.0" kv="0.76"/>
+			<Setting handpos="1.5" kv="0.95"/>
+			<Setting handpos="2.0" kv="1.09"/>
+			<Setting handpos="2.5" kv="1.21"/>
+			<Setting handpos="3.0" kv="1.31"/>
+			<Setting handpos="3.5" kv="1.39"/>
+			<Setting handpos="4.0" kv="1.47"/>
+			<Setting handpos="4.5" kv="1.53"/>
+			<Setting handpos="5.0" kv="1.59"/>
+			<Setting handpos="5.5" kv="1.63"/>
+			<Setting handpos="6.0" kv="1.67"/>
+			<Setting handpos="6.5" kv="1.70"/>
+			<Setting handpos="7.0" kv="1.73"/>
+			<Setting handpos="7.5" kv="1.76"/>
+			<Setting handpos="8.0" kv="1.78"/>
+			<Setting handpos="8.5" kv="1.80"/>
+			<Setting handpos="9.0" kv="1.82"/>
+			<Setting handpos="9.5" kv="1.83"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0.5" kvs="0.50"/>
+			<Setting handpos="1.0" kvs="0.76"/>
+			<Setting handpos="1.5" kvs="0.95"/>
+			<Setting handpos="2.0" kvs="1.09"/>
+			<Setting handpos="2.5" kvs="1.21"/>
+			<Setting handpos="3.0" kvs="1.31"/>
+			<Setting handpos="3.5" kvs="1.39"/>
+			<Setting handpos="4.0" kvs="1.47"/>
+			<Setting handpos="4.5" kvs="1.53"/>
+			<Setting handpos="5.0" kvs="1.59"/>
+			<Setting handpos="5.5" kvs="1.63"/>
+			<Setting handpos="6.0" kvs="1.67"/>
+			<Setting handpos="6.5" kvs="1.70"/>
+			<Setting handpos="7.0" kvs="1.73"/>
+			<Setting handpos="7.5" kvs="1.76"/>
+			<Setting handpos="8.0" kvs="1.78"/>
+			<Setting handpos="8.5" kvs="1.80"/>
+			<Setting handpos="9.0" kvs="1.82"/>
+			<Setting handpos="9.5" kvs="1.83"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="6"  dnid="5"  suggestedflowrangemin="0.138"  suggestedflowrangemax="0.325">
+		<KV>
+			<Setting handpos="0.5" kv="0.69"/>
+			<Setting handpos="1.0" kv="1.07"/>
+			<Setting handpos="1.5" kv="1.37"/>
+			<Setting handpos="2.0" kv="1.64"/>
+			<Setting handpos="2.5" kv="1.90"/>
+			<Setting handpos="3.0" kv="2.12"/>
+			<Setting handpos="3.5" kv="2.31"/>
+			<Setting handpos="4.0" kv="2.47"/>
+			<Setting handpos="4.5" kv="2.61"/>
+			<Setting handpos="5.0" kv="2.75"/>
+			<Setting handpos="5.5" kv="2.86"/>
+			<Setting handpos="6.0" kv="2.96"/>
+			<Setting handpos="6.5" kv="3.05"/>
+			<Setting handpos="7.0" kv="3.13"/>
+			<Setting handpos="7.5" kv="3.20"/>
+			<Setting handpos="8.0" kv="3.28"/>
+			<Setting handpos="8.5" kv="3.35"/>
+			<Setting handpos="9.0" kv="3.41"/>
+			<Setting handpos="9.5" kv="3.47"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0.5" kvs="0.69"/>
+			<Setting handpos="1.0" kvs="1.07"/>
+			<Setting handpos="1.5" kvs="1.37"/>
+			<Setting handpos="2.0" kvs="1.64"/>
+			<Setting handpos="2.5" kvs="1.90"/>
+			<Setting handpos="3.0" kvs="2.12"/>
+			<Setting handpos="3.5" kvs="2.31"/>
+			<Setting handpos="4.0" kvs="2.47"/>
+			<Setting handpos="4.5" kvs="2.61"/>
+			<Setting handpos="5.0" kvs="2.75"/>
+			<Setting handpos="5.5" kvs="2.86"/>
+			<Setting handpos="6.0" kvs="2.96"/>
+			<Setting handpos="6.5" kvs="3.05"/>
+			<Setting handpos="7.0" kvs="3.13"/>
+			<Setting handpos="7.5" kvs="3.20"/>
+			<Setting handpos="8.0" kvs="3.28"/>
+			<Setting handpos="8.5" kvs="3.35"/>
+			<Setting handpos="9.0" kvs="3.41"/>
+			<Setting handpos="9.5" kvs="3.47"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="6"  dnid="6"  suggestedflowrangemin="0.258"  suggestedflowrangemax="0.603">
+		<KV>
+			<Setting handpos="0.5" kv="1.33"/>
+			<Setting handpos="1.0" kv="2.08"/>
+			<Setting handpos="1.5" kv="2.70"/>
+			<Setting handpos="2.0" kv="3.17"/>
+			<Setting handpos="2.5" kv="3.60"/>
+			<Setting handpos="3.0" kv="3.90"/>
+			<Setting handpos="3.5" kv="4.19"/>
+			<Setting handpos="4.0" kv="4.52"/>
+			<Setting handpos="4.5" kv="4.75"/>
+			<Setting handpos="5.0" kv="4.95"/>
+			<Setting handpos="5.5" kv="5.14"/>
+			<Setting handpos="6.0" kv="5.30"/>
+			<Setting handpos="6.5" kv="5.46"/>
+			<Setting handpos="7.0" kv="5.67"/>
+			<Setting handpos="7.5" kv="5.83"/>
+			<Setting handpos="8.0" kv="6.00"/>
+			<Setting handpos="8.5" kv="6.13"/>
+			<Setting handpos="9.0" kv="6.18"/>
+			<Setting handpos="9.5" kv="6.30"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0.5" kvs="1.33"/>
+			<Setting handpos="1.0" kvs="2.08"/>
+			<Setting handpos="1.5" kvs="2.70"/>
+			<Setting handpos="2.0" kvs="3.17"/>
+			<Setting handpos="2.5" kvs="3.60"/>
+			<Setting handpos="3.0" kvs="3.90"/>
+			<Setting handpos="3.5" kvs="4.19"/>
+			<Setting handpos="4.0" kvs="4.52"/>
+			<Setting handpos="4.5" kvs="4.75"/>
+			<Setting handpos="5.0" kvs="4.95"/>
+			<Setting handpos="5.5" kvs="5.14"/>
+			<Setting handpos="6.0" kvs="5.30"/>
+			<Setting handpos="6.5" kvs="5.46"/>
+			<Setting handpos="7.0" kvs="5.67"/>
+			<Setting handpos="7.5" kvs="5.83"/>
+			<Setting handpos="8.0" kvs="6.00"/>
+			<Setting handpos="8.5" kvs="6.13"/>
+			<Setting handpos="9.0" kvs="6.18"/>
+			<Setting handpos="9.5" kvs="6.30"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="6"  dnid="7"  suggestedflowrangemin="0.54"   suggestedflowrangemax="1.25">
+		<KV>
+			<Setting handpos="0.5"  kv="2.01"/>
+			<Setting handpos="1.0"  kv="3.51"/>
+			<Setting handpos="1.5"  kv="4.65"/>
+			<Setting handpos="2.0"  kv="5.26"/>
+			<Setting handpos="2.5"  kv="5.92"/>
+			<Setting handpos="3.0"  kv="6.54"/>
+			<Setting handpos="3.5"  kv="7.02"/>
+			<Setting handpos="4.0"  kv="7.60"/>
+			<Setting handpos="4.5"  kv="7.95"/>
+			<Setting handpos="5.0"  kv="8.56"/>
+			<Setting handpos="5.5"  kv="8.88"/>
+			<Setting handpos="6.0"  kv="9.48"/>
+			<Setting handpos="6.5"  kv="9.90"/>
+			<Setting handpos="7.0"  kv="10.5"/>
+			<Setting handpos="7.5"  kv="10.9"/>
+			<Setting handpos="8.0"  kv="11.2"/>
+			<Setting handpos="8.5"  kv="11.5"/>
+			<Setting handpos="9.0"  kv="11.9"/>
+			<Setting handpos="9.5"  kv="12.4"/>
+			<Setting handpos="10.0" kv="13.1"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0.5"  kvs="2.01"/>
+			<Setting handpos="1.0"  kvs="3.51"/>
+			<Setting handpos="1.5"  kvs="4.65"/>
+			<Setting handpos="2.0"  kvs="5.26"/>
+			<Setting handpos="2.5"  kvs="5.92"/>
+			<Setting handpos="3.0"  kvs="6.54"/>
+			<Setting handpos="3.5"  kvs="7.02"/>
+			<Setting handpos="4.0"  kvs="7.60"/>
+			<Setting handpos="4.5"  kvs="7.95"/>
+			<Setting handpos="5.0"  kvs="8.56"/>
+			<Setting handpos="5.5"  kvs="8.88"/>
+			<Setting handpos="6.0"  kvs="9.48"/>
+			<Setting handpos="6.5"  kvs="9.90"/>
+			<Setting handpos="7.0"  kvs="10.5"/>
+			<Setting handpos="7.5"  kvs="10.9"/>
+			<Setting handpos="8.0"  kvs="11.2"/>
+			<Setting handpos="8.5"  kvs="11.5"/>
+			<Setting handpos="9.0"  kvs="11.9"/>
+			<Setting handpos="9.5"  kvs="12.4"/>
+			<Setting handpos="10.0" kvs="13.1"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="6"  dnid="8"  suggestedflowrangemin="0.81"   suggestedflowrangemax="1.88">
+		<KV>
+			<Setting handpos="0.5"  kv="2.15"/>
+			<Setting handpos="1.0"  kv="3.85"/>
+			<Setting handpos="1.5"  kv="5.60"/>
+			<Setting handpos="2.0"  kv="6.71"/>
+			<Setting handpos="2.5"  kv="7.51"/>
+			<Setting handpos="3.0"  kv="8.37"/>
+			<Setting handpos="3.5"  kv="9.06"/>
+			<Setting handpos="4.0"  kv="9.91"/>
+			<Setting handpos="4.5"  kv="10.5"/>
+			<Setting handpos="5.0"  kv="11.2"/>
+			<Setting handpos="5.5"  kv="11.6"/>
+			<Setting handpos="6.0"  kv="12.1"/>
+			<Setting handpos="6.5"  kv="12.4"/>
+			<Setting handpos="7.0"  kv="12.8"/>
+			<Setting handpos="7.5"  kv="13.2"/>
+			<Setting handpos="8.0"  kv="13.6"/>
+			<Setting handpos="8.5"  kv="13.9"/>
+			<Setting handpos="9.0"  kv="14.5"/>
+			<Setting handpos="9.5"  kv="15.0"/>
+			<Setting handpos="10.0" kv="15.3"/>
+		</KV>
+		<KVS>
+			<Setting handpos="0.5"  kvs="2.15"/>
+			<Setting handpos="1.0"  kvs="3.85"/>
+			<Setting handpos="1.5"  kvs="5.60"/>
+			<Setting handpos="2.0"  kvs="6.71"/>
+			<Setting handpos="2.5"  kvs="7.51"/>
+			<Setting handpos="3.0"  kvs="8.37"/>
+			<Setting handpos="3.5"  kvs="9.06"/>
+			<Setting handpos="4.0"  kvs="9.91"/>
+			<Setting handpos="4.5"  kvs="10.5"/>
+			<Setting handpos="5.0"  kvs="11.2"/>
+			<Setting handpos="5.5"  kvs="11.6"/>
+			<Setting handpos="6.0"  kvs="12.1"/>
+			<Setting handpos="6.5"  kvs="12.4"/>
+			<Setting handpos="7.0"  kvs="12.8"/>
+			<Setting handpos="7.5"  kvs="13.2"/>
+			<Setting handpos="8.0"  kvs="13.6"/>
+			<Setting handpos="8.5"  kvs="13.9"/>
+			<Setting handpos="9.0"  kvs="14.5"/>
+			<Setting handpos="9.5"  kvs="15.0"/>
+			<Setting handpos="10.0" kvs="15.3"/>
+		</KVS>
+	</Sizing>	
+	<Sizing modelid="6"  dnid="9"  suggestedflowrangemin="1.52"   suggestedflowrangemax="3.51">
+		<KV>
+			<Setting handpos="0.5"  kv="3.82"/>
+			<Setting handpos="1.0"  kv="6.02"/>
+			<Setting handpos="1.5"  kv="8.03"/>
+			<Setting handpos="2.0"  kv="9.06"/>
+			<Setting handpos="2.5"  kv="10.3"/>
+			<Setting handpos="3.0"  kv="11.2"/>
+			<Setting handpos="3.5"  kv="12.3"/>
+			<Setting handpos="4.0"  kv="13.4"/>
+			<Setting handpos="4.5"  kv="14.3"/>
+			<Setting handpos="5.0"  kv="15.3"/>
+			<Setting handpos="5.5"  kv="16.1"/>
+			<Setting handpos="6.0"  kv="16.8"/>
+			<Setting handpos="6.5"  kv="17.5"/>
+			<Setting handpos="7.0"  kv="18.2"/>
+			<Setting handpos="7.5"  kv="18.9"/>
+			<Setting handpos="8.0"  kv="19.6"/>
+			<Setting handpos="8.5"  kv="20.3"/>
+			<Setting handpos="9.0"  kv="20.9"/>
+			<Setting handpos="9.5"  kv="21.6"/>
+			<Setting handpos="10.0" kv="22.1"/>
+			<Setting handpos="10.5" kv="22.7"/>			
+			<Setting handpos="11.0" kv="23.0"/>			
+			<Setting handpos="11.5" kv="23.5"/>
+			<Setting handpos="12.0" kv="23.7"/>	
+			<Setting handpos="12.5" kv="24.1"/>	
+			<Setting handpos="13.0" kv="24.3"/>	
+			<Setting handpos="13.5" kv="24.9"/>	
+			<Setting handpos="14.0" kv="25.2"/>	
+			<Setting handpos="14.5" kv="25.8"/>	
+			<Setting handpos="15.0" kv="26.1"/>				
+		</KV>
+		<KVS>
+			<Setting handpos="0.5"  kvs="3.82"/>
+			<Setting handpos="1.0"  kvs="6.02"/>
+			<Setting handpos="1.5"  kvs="8.03"/>
+			<Setting handpos="2.0"  kvs="9.06"/>
+			<Setting handpos="2.5"  kvs="10.3"/>
+			<Setting handpos="3.0"  kvs="11.2"/>
+			<Setting handpos="3.5"  kvs="12.3"/>
+			<Setting handpos="4.0"  kvs="13.4"/>
+			<Setting handpos="4.5"  kvs="14.3"/>
+			<Setting handpos="5.0"  kvs="15.3"/>
+			<Setting handpos="5.5"  kvs="16.1"/>
+			<Setting handpos="6.0"  kvs="16.8"/>
+			<Setting handpos="6.5"  kvs="17.5"/>
+			<Setting handpos="7.0"  kvs="18.2"/>
+			<Setting handpos="7.5"  kvs="18.9"/>
+			<Setting handpos="8.0"  kvs="19.6"/>
+			<Setting handpos="8.5"  kvs="20.3"/>
+			<Setting handpos="9.0"  kvs="20.9"/>
+			<Setting handpos="9.5"  kvs="21.6"/>
+			<Setting handpos="10.0" kvs="22.1"/>
+			<Setting handpos="10.5" kvs="22.7"/>			
+			<Setting handpos="11.0" kvs="23.0"/>			
+			<Setting handpos="11.5" kvs="23.5"/>
+			<Setting handpos="12.0" kvs="23.7"/>	
+			<Setting handpos="12.5" kvs="24.1"/>	
+			<Setting handpos="13.0" kvs="24.3"/>	
+			<Setting handpos="13.5" kvs="24.9"/>	
+			<Setting handpos="14.0" kvs="25.2"/>	
+			<Setting handpos="14.5" kvs="25.8"/>	
+			<Setting handpos="15.0" kvs="26.1"/>		
+		</KVS>
+	</Sizing>		
+	
+	<Sizing modelid="8"  dnid="10" suggestedflowrangemin="3.02"   suggestedflowrangemax="6.95">
+		<KV>
+			<Setting handpos="1.0" kv="21.9"/>
+			<Setting handpos="1.5" kv="26.4"/>
+			<Setting handpos="2.0" kv="31.1"/>
+			<Setting handpos="2.5" kv="35.7"/>
+			<Setting handpos="3.0" kv="40.1"/>
+			<Setting handpos="3.5" kv="44.4"/>
+			<Setting handpos="4.0" kv="49.3"/>
+			<Setting handpos="4.5" kv="53.2"/>
+			<Setting handpos="5.0" kv="57.5"/>
+			<Setting handpos="5.5" kv="64.4"/>
+			<Setting handpos="6.0" kv="71.8"/>
+			<Setting handpos="6.5" kv="76.6"/>
+			<Setting handpos="7.0" kv="80.4"/>
+			<Setting handpos="7.5" kv="84.1"/>
+			<Setting handpos="8.0" kv="88.8"/>
+		</KV>
+		<KVS>
+			<Setting handpos="1.0" kvs="21.9"/>
+			<Setting handpos="1.5" kvs="26.4"/>
+			<Setting handpos="2.0" kvs="31.1"/>
+			<Setting handpos="2.5" kvs="35.7"/>
+			<Setting handpos="3.0" kvs="40.1"/>
+			<Setting handpos="3.5" kvs="44.4"/>
+			<Setting handpos="4.0" kvs="49.3"/>
+			<Setting handpos="4.5" kvs="53.2"/>
+			<Setting handpos="5.0" kvs="57.5"/>
+			<Setting handpos="5.5" kvs="64.4"/>
+			<Setting handpos="6.0" kvs="71.8"/>
+			<Setting handpos="6.5" kvs="76.6"/>
+			<Setting handpos="7.0" kvs="80.4"/>
+			<Setting handpos="7.5" kvs="84.1"/>
+			<Setting handpos="8.0" kvs="88.8"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="8"  dnid="11" suggestedflowrangemin="6.40"   suggestedflowrangemax="15.36">
+		<KV>
+			<Setting handpos="1.0" kv="7.9"/>
+			<Setting handpos="1.5" kv="9.9"/>
+			<Setting handpos="2.0" kv="11.8"/>
+			<Setting handpos="2.5" kv="13.8"/>
+			<Setting handpos="3.0" kv="16.7"/>
+			<Setting handpos="3.5" kv="21.9"/>
+			<Setting handpos="4.0" kv="31.2"/>
+			<Setting handpos="4.5" kv="45.9"/>
+			<Setting handpos="5.0" kv="65.0"/>
+			<Setting handpos="5.5" kv="79.5"/>
+			<Setting handpos="6.0" kv="89.3"/>
+			<Setting handpos="6.5" kv="96.6"/>
+			<Setting handpos="7.0" kv="102.7"/>
+			<Setting handpos="7.5" kv="108.2"/>
+			<Setting handpos="8.0" kv="113.4"/>
+		</KV>
+		<KVS>
+			<Setting handpos="1.0" kvs="7.9"/>
+			<Setting handpos="1.5" kvs="9.9"/>
+			<Setting handpos="2.0" kvs="11.8"/>
+			<Setting handpos="2.5" kvs="13.8"/>
+			<Setting handpos="3.0" kvs="16.7"/>
+			<Setting handpos="3.5" kvs="21.9"/>
+			<Setting handpos="4.0" kvs="31.2"/>
+			<Setting handpos="4.5" kvs="45.9"/>
+			<Setting handpos="5.0" kvs="65.0"/>
+			<Setting handpos="5.5" kvs="79.5"/>
+			<Setting handpos="6.0" kvs="89.3"/>
+			<Setting handpos="6.5" kvs="96.6"/>
+			<Setting handpos="7.0" kvs="102.7"/>
+			<Setting handpos="7.5" kvs="108.2"/>
+			<Setting handpos="8.0" kvs="113.4"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="8"  dnid="12" suggestedflowrangemin="10.85"  suggestedflowrangemax="26.04">
+		<KV>
+			<Setting handpos="1.0" kv="9.6"/>
+			<Setting handpos="1.5" kv="12.8"/>
+			<Setting handpos="2.0" kv="16.6"/>
+			<Setting handpos="2.5" kv="22.9"/>
+			<Setting handpos="3.0" kv="34.0"/>
+			<Setting handpos="3.5" kv="50.5"/>
+			<Setting handpos="4.0" kv="71.4"/>
+			<Setting handpos="4.5" kv="90.9"/>
+			<Setting handpos="5.0" kv="107.4"/>
+			<Setting handpos="5.5" kv="121.6"/>
+			<Setting handpos="6.0" kv="135.0"/>
+			<Setting handpos="6.5" kv="148.1"/>
+			<Setting handpos="7.0" kv="159.9"/>
+			<Setting handpos="7.5" kv="169.8"/>
+			<Setting handpos="8.0" kv="177.9"/>
+			<Setting handpos="8.5" kv="184.7"/>
+		</KV>
+		<KVS>
+			<Setting handpos="1.0" kvs="9.6"/>
+			<Setting handpos="1.5" kvs="12.8"/>
+			<Setting handpos="2.0" kvs="16.6"/>
+			<Setting handpos="2.5" kvs="22.9"/>
+			<Setting handpos="3.0" kvs="34.0"/>
+			<Setting handpos="3.5" kvs="50.5"/>
+			<Setting handpos="4.0" kvs="71.4"/>
+			<Setting handpos="4.5" kvs="90.9"/>
+			<Setting handpos="5.0" kvs="107.4"/>
+			<Setting handpos="5.5" kvs="121.6"/>
+			<Setting handpos="6.0" kvs="135.0"/>
+			<Setting handpos="6.5" kvs="148.1"/>
+			<Setting handpos="7.0" kvs="159.9"/>
+			<Setting handpos="7.5" kvs="169.8"/>
+			<Setting handpos="8.0" kvs="177.9"/>
+			<Setting handpos="8.5" kvs="184.7"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="8"  dnid="13" suggestedflowrangemin="16.85"  suggestedflowrangemax="39.75">
+		<KV>
+			<Setting handpos="1.0" kv="13.0"/>
+			<Setting handpos="1.5" kv="17.8"/>
+			<Setting handpos="2.0" kv="23.7"/>
+			<Setting handpos="2.5" kv="33.1"/>
+			<Setting handpos="3.0" kv="51.2"/>
+			<Setting handpos="3.5" kv="77.0"/>
+			<Setting handpos="4.0" kv="106.5"/>
+			<Setting handpos="4.5" kv="135.7"/>
+			<Setting handpos="5.0" kv="160.9"/>
+			<Setting handpos="5.5" kv="182.1"/>
+			<Setting handpos="6.0" kv="201.9"/>
+			<Setting handpos="6.5" kv="221.6"/>
+			<Setting handpos="7.0" kv="239.8"/>
+			<Setting handpos="7.5" kv="255.9"/>
+			<Setting handpos="8.0" kv="270.8"/>
+			<Setting handpos="8.5" kv="285.1"/>
+		</KV>
+		<KVS>
+			<Setting handpos="1.0" kvs="13.0"/>
+			<Setting handpos="1.5" kvs="17.8"/>
+			<Setting handpos="2.0" kvs="23.7"/>
+			<Setting handpos="2.5" kvs="33.1"/>
+			<Setting handpos="3.0" kvs="51.2"/>
+			<Setting handpos="3.5" kvs="77.0"/>
+			<Setting handpos="4.0" kvs="106.5"/>
+			<Setting handpos="4.5" kvs="135.7"/>
+			<Setting handpos="5.0" kvs="160.9"/>
+			<Setting handpos="5.5" kvs="182.1"/>
+			<Setting handpos="6.0" kvs="201.9"/>
+			<Setting handpos="6.5" kvs="221.6"/>
+			<Setting handpos="7.0" kvs="239.8"/>
+			<Setting handpos="7.5" kvs="255.9"/>
+			<Setting handpos="8.0" kvs="270.8"/>
+			<Setting handpos="8.5" kvs="285.1"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="8"  dnid="14" suggestedflowrangemin="23.71"  suggestedflowrangemax="56.91">
+		<KV>
+			<Setting handpos="1.0" kv="14.8"/>
+			<Setting handpos="1.5" kv="19.1"/>
+			<Setting handpos="2.0" kv="29.7"/>
+			<Setting handpos="2.5" kv="51.8"/>
+			<Setting handpos="3.0" kv="83.7"/>
+			<Setting handpos="3.5" kv="132.0"/>
+			<Setting handpos="4.0" kv="183.7"/>
+			<Setting handpos="4.5" kv="219.5"/>
+			<Setting handpos="5.0" kv="247.1"/>
+			<Setting handpos="5.5" kv="273.3"/>
+			<Setting handpos="6.0" kv="298.2"/>
+			<Setting handpos="6.5" kv="321.3"/>
+			<Setting handpos="7.0" kv="342.2"/>
+			<Setting handpos="7.5" kv="360.7"/>
+			<Setting handpos="8.0" kv="376.8"/>
+			<Setting handpos="8.5" kv="390.2"/>
+		</KV>
+		<KVS>
+			<Setting handpos="1.0" kvs="14.8"/>
+			<Setting handpos="1.5" kvs="19.1"/>
+			<Setting handpos="2.0" kvs="29.7"/>
+			<Setting handpos="2.5" kvs="51.8"/>
+			<Setting handpos="3.0" kvs="83.7"/>
+			<Setting handpos="3.5" kvs="132.0"/>
+			<Setting handpos="4.0" kvs="183.7"/>
+			<Setting handpos="4.5" kvs="219.5"/>
+			<Setting handpos="5.0" kvs="247.1"/>
+			<Setting handpos="5.5" kvs="273.3"/>
+			<Setting handpos="6.0" kvs="298.2"/>
+			<Setting handpos="6.5" kvs="321.3"/>
+			<Setting handpos="7.0" kvs="342.2"/>
+			<Setting handpos="7.5" kvs="360.7"/>
+			<Setting handpos="8.0" kvs="376.8"/>
+			<Setting handpos="8.5" kvs="390.2"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="8"  dnid="15" suggestedflowrangemin="41.86"  suggestedflowrangemax="100.47">
+		<KV>
+			<Setting handpos="1.0" kv="38.6"/>
+			<Setting handpos="1.5" kv="45.6"/>
+			<Setting handpos="2.0" kv="54.6"/>
+			<Setting handpos="2.5" kv="71.2"/>
+			<Setting handpos="3.0" kv="99.9"/>
+			<Setting handpos="3.5" kv="148.6"/>
+			<Setting handpos="4.0" kv="216.2"/>
+			<Setting handpos="4.5" kv="283.9"/>
+			<Setting handpos="5.0" kv="341.2"/>
+			<Setting handpos="5.5" kv="387.7"/>
+			<Setting handpos="6.0" kv="430.1"/>
+			<Setting handpos="6.5" kv="471.7"/>
+			<Setting handpos="7.0" kv="507.6"/>
+			<Setting handpos="7.5" kv="535.2"/>
+			<Setting handpos="8.0" kv="560.8"/>
+			<Setting handpos="8.5" kv="590.0"/>
+			<Setting handpos="9.0" kv="619.3"/>
+			<Setting handpos="9.5" kv="644.9"/>
+			<Setting handpos="10.0" kv="667.2"/>
+			<Setting handpos="10.5" kv="688.4"/>
+			<Setting handpos="11.0" kv="710.0"/>
+		</KV>
+		<KVS>
+			<Setting handpos="1.0" kvs="38.6"/>
+			<Setting handpos="1.5" kvs="45.6"/>
+			<Setting handpos="2.0" kvs="54.6"/>
+			<Setting handpos="2.5" kvs="71.2"/>
+			<Setting handpos="3.0" kvs="99.9"/>
+			<Setting handpos="3.5" kvs="148.6"/>
+			<Setting handpos="4.0" kvs="216.2"/>
+			<Setting handpos="4.5" kvs="283.9"/>
+			<Setting handpos="5.0" kvs="341.2"/>
+			<Setting handpos="5.5" kvs="387.7"/>
+			<Setting handpos="6.0" kvs="430.1"/>
+			<Setting handpos="6.5" kvs="471.7"/>
+			<Setting handpos="7.0" kvs="507.6"/>
+			<Setting handpos="7.5" kvs="535.2"/>
+			<Setting handpos="8.0" kvs="560.8"/>
+			<Setting handpos="8.5" kvs="590.0"/>
+			<Setting handpos="9.0" kvs="619.3"/>
+			<Setting handpos="9.5" kvs="644.9"/>
+			<Setting handpos="10.0" kvs="667.2"/>
+			<Setting handpos="10.5" kvs="688.4"/>
+			<Setting handpos="11.0" kvs="710.0"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="8"  dnid="16" suggestedflowrangemin="66.58"  suggestedflowrangemax="156.78">
+		<KV>
+			<Setting handpos="1.0" kv="62.3"/>
+			<Setting handpos="1.5" kv="73.1"/>
+			<Setting handpos="2.0" kv="87.3"/>
+			<Setting handpos="2.5" kv="115.8"/>
+			<Setting handpos="3.0" kv="163.9"/>
+			<Setting handpos="3.5" kv="239.2"/>
+			<Setting handpos="4.0" kv="345.3"/>
+			<Setting handpos="4.5" kv="451.4"/>
+			<Setting handpos="5.0" kv="543.3"/>
+			<Setting handpos="5.5" kv="622.0"/>
+			<Setting handpos="6.0" kv="694.0"/>
+			<Setting handpos="6.5" kv="765.2"/>
+			<Setting handpos="7.0" kv="823.7"/>
+			<Setting handpos="7.5" kv="876.3"/>
+			<Setting handpos="8.0" kv="925.3"/>
+			<Setting handpos="8.5" kv="974.4"/>
+			<Setting handpos="9.0" kv="1022"/>
+			<Setting handpos="9.5" kv="1068"/>
+			<Setting handpos="10.0" kv="1110"/>
+			<Setting handpos="10.5" kv="1150"/>
+			<Setting handpos="11.0" kv="1188"/>
+		</KV>
+		<KVS>
+			<Setting handpos="1.0" kvs="62.3"/>
+			<Setting handpos="1.5" kvs="73.1"/>
+			<Setting handpos="2.0" kvs="87.3"/>
+			<Setting handpos="2.5" kvs="115.8"/>
+			<Setting handpos="3.0" kvs="163.9"/>
+			<Setting handpos="3.5" kvs="239.2"/>
+			<Setting handpos="4.0" kvs="345.3"/>
+			<Setting handpos="4.5" kvs="451.4"/>
+			<Setting handpos="5.0" kvs="543.3"/>
+			<Setting handpos="5.5" kvs="622.0"/>
+			<Setting handpos="6.0" kvs="694.0"/>
+			<Setting handpos="6.5" kvs="765.2"/>
+			<Setting handpos="7.0" kvs="823.7"/>
+			<Setting handpos="7.5" kvs="876.3"/>
+			<Setting handpos="8.0" kvs="925.3"/>
+			<Setting handpos="8.5" kvs="974.4"/>
+			<Setting handpos="9.0" kvs="1022"/>
+			<Setting handpos="9.5" kvs="1068"/>
+			<Setting handpos="10.0" kvs="1110"/>
+			<Setting handpos="10.5" kvs="1150"/>
+			<Setting handpos="11.0" kvs="1188"/>
+		</KVS>
+	</Sizing>
+	<Sizing modelid="8"  dnid="17" suggestedflowrangemin="94.16"  suggestedflowrangemax="255.99">
+		<KV>
+			<Setting handpos="1.0" kv="57.1"/>
+			<Setting handpos="1.5" kv="72.2"/>
+			<Setting handpos="2.0" kv="89.8"/>
+			<Setting handpos="2.5" kv="110.2"/>
+			<Setting handpos="3.0" kv="140.7"/>
+			<Setting handpos="3.5" kv="202.0"/>
+			<Setting handpos="4.0" kv="331.7"/>
+			<Setting handpos="4.5" kv="500.2"/>
+			<Setting handpos="5.0" kv="634.1"/>
+			<Setting handpos="5.5" kv="733.2"/>
+			<Setting handpos="6.0" kv="825.1"/>
+			<Setting handpos="6.5" kv="922.9"/>
+			<Setting handpos="7.0" kv="1018"/>
+			<Setting handpos="7.5" kv="1100"/>
+			<Setting handpos="8.0" kv="1170"/>
+			<Setting handpos="8.5" kv="1230"/>
+			<Setting handpos="9.0" kv="1285"/>
+			<Setting handpos="9.5" kv="1340"/>
+			<Setting handpos="10.0" kv="1394"/>
+			<Setting handpos="10.5" kv="1449"/>
+			<Setting handpos="11.0" kv="1504"/>
+		</KV>
+		<KVS>
+			<Setting handpos="1.0" kvs="57.1"/>
+			<Setting handpos="1.5" kvs="72.2"/>
+			<Setting handpos="2.0" kvs="89.8"/>
+			<Setting handpos="2.5" kvs="110.2"/>
+			<Setting handpos="3.0" kvs="140.7"/>
+			<Setting handpos="3.5" kvs="202.0"/>
+			<Setting handpos="4.0" kvs="331.7"/>
+			<Setting handpos="4.5" kvs="500.2"/>
+			<Setting handpos="5.0" kvs="634.1"/>
+			<Setting handpos="5.5" kvs="733.2"/>
+			<Setting handpos="6.0" kvs="825.1"/>
+			<Setting handpos="6.5" kvs="922.9"/>
+			<Setting handpos="7.0" kvs="1018"/>
+			<Setting handpos="7.5" kvs="1100"/>
+			<Setting handpos="8.0" kvs="1170"/>
+			<Setting handpos="8.5" kvs="1230"/>
+			<Setting handpos="9.0" kvs="1285"/>
+			<Setting handpos="9.5" kvs="1340"/>
+			<Setting handpos="10.0" kvs="1394"/>
+			<Setting handpos="10.5" kvs="1449"/>
+			<Setting handpos="11.0" kvs="1504"/>
+		</KVS>
+	</Sizing>
+	
+</Sizings>
+</Sizing9500>
