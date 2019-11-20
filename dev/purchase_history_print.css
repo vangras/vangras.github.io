@@ -1,4 +1,21 @@
-#commitments, #domain-nav, .tabbable, #purchase-history .bulk-actions-border, #purchase-history .container-options, #purchase-history .container-footer, #gh-top, #gh-shop, #gh-f, #gh-gb, .order-action-wrap, .coln5.action-col, a.flt-r.surveyLink, #purchase-history .merch-placeholder, #cancel-commits, #cancel-invoices, #returns. #invoices, #myebay-footer-ad, #footer {
+#domain-nav,
+.tabbable,
+#purchase-history .bulk-actions-border,
+#purchase-history .container-options,
+#purchase-history .container-footer .pagination,
+#purchase-history .merch-placeholder,
+#gh-top, #gh-shop, #gh-f, #gh-gb,
+.order-action-wrap,
+.coln5.action-col,
+a.flt-r.surveyLink,
+#commitments,
+#cancel-commits,
+#cancel-invoices,
+#returns,
+#invoices,
+#myebay-footer-ad,
+#footer
+{
     display: none !important;
 }
 
