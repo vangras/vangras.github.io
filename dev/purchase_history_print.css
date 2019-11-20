@@ -46,4 +46,12 @@ header#gh {
 	
 }
 
+@media print {
+	#gh-bti {
+		display: none !important;
+	}
+}	
+
 /*<link href="https://andreagrassi.net/dev/purchase_history_print.css" type="text/css" rel="stylesheet">*/
+/*print at 89%*/
+/*page-break-after: always;*/
