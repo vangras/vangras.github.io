@@ -47,7 +47,7 @@ header#gh {
 }
 
 @media print {
-	#gh-bti {
+	#gh-bt {
 		display: none !important;
 	}
 }	
