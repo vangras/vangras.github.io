@@ -1,18 +1,19 @@
-#commitments, #domain-nav, .tabbable, #purchase-history .bulk-actions-border, #purchase-history .container-options, #gh-top, #gh-shop, #gh-f, .order-action-wrap, .coln5.action-col, a.flt-r.surveyLink, #purchase-history .merch-placeholder, #cancel-commits, #cancel-invoices, #returns, #myebay-footer-ad, #footer {
+#commitments, #domain-nav, .tabbable, #purchase-history .bulk-actions-border, #purchase-history .container-options, #purchase-history .container-footer, #gh-top, #gh-shop, #gh-f, #gh-gb, .order-action-wrap, .coln5.action-col, a.flt-r.surveyLink, #purchase-history .merch-placeholder, #cancel-commits, #cancel-invoices, #returns. #invoices, #myebay-footer-ad, #footer {
     display: none !important;
 }
 
 #mainContent {
-    margin-left: 0;
+    margin-left: 0 !important;
 }
 header#gh {
-    padding-top: 10px;
+    padding-top: 10px !important;
 }
 #purchase-history .orders .order-item-count {
-    margin-top: 0;
+    margin-top: 0 !important;
 }
 #purchase-history .orders .order-info-wrap {
-    float: right;
-    margin-right: 1em;
+    float: right !important;
+    margin-right: 1em !important;
 }
 
+/*<link href="https://andreagrassi.net/dev/purchase_history_print.css" type="text/css" rel="stylesheet">*/
