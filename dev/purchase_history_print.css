@@ -2,6 +2,9 @@
 .tabbable,
 #purchase-history .bulk-actions-border,
 #purchase-history .item-actions,
+#purchase-history .item-list-all .i200 .image-shadow,
+#purchase-history .item-spec-r .item-list-header.row-header.state-delivered,
+#purchase-history .item-spec-r .ebay-notes,
 #purchase-history .container-options,
 #purchase-history .container-footer .pagination,
 #purchase-history .merch-placeholder,
@@ -32,6 +35,14 @@ header#gh {
 #purchase-history .orders .order-info-wrap {
     float: right !important;
     margin-right: 1em !important;
+}
+#purchase-history .item-list-all .i200,
+#purchase-history .item-list-all .i200 .imgt,
+#purchase-history .item-list-all .i200 .imgt img,
+{
+	height: auto !important;
+	max-height: inherit !important;
+	
 }
 
 /*<link href="https://andreagrassi.net/dev/purchase_history_print.css" type="text/css" rel="stylesheet">*/
