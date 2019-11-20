@@ -39,7 +39,7 @@ header#gh {
 }
 #purchase-history .item-list-all .i200,
 #purchase-history .item-list-all .i200 .imgt,
-#purchase-history .item-list-all .i200 .imgt img,
+#purchase-history .item-list-all .i200 .imgt img
 {
 	height: auto !important;
 	max-height: inherit !important;
