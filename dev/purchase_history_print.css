@@ -46,6 +46,13 @@ header#gh {
 	
 }
 
+#purchase-history .orders .order-r .row-tr {
+	display: flex;
+}
+#purchase-history .orders .order-r .row-tr .coln1 {
+	flex-grow: 1;
+}
+
 @media print {
 	#gh-bt {
 		display: none !important;
