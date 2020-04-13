@@ -50,7 +50,7 @@ header#gh {
 	display: flex;
 }
 #purchase-history .orders .order-r .row-tr .coln1,
-#purchase-history .orders .order-r .row-tr .order-image-col less-three {
+#purchase-history .orders .order-r .row-tr .order-image-col .less-three {
 	flex-grow: 1;
 }
 
